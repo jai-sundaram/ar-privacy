@@ -80,10 +80,19 @@ pp_lab_1 = pandas.read_csv("../data/pplab.csv")
 pp_lab_1 = pp_lab_1.drop(0)
 pp_lab_2 = pandas.read_csv("../data/pplab2.csv")
 pp_lab_2 = pp_lab_2.drop(0)
-
 all_lab = pandas.concat([pp_lab_1, pp_lab_2],  axis = 0)
 all_lab = all_lab.drop(all_lab.columns[1], axis = 1)
 lab_length = len(all_lab['time'])
 lab_category = ["LAB"] * lab_length
 all_lab["category"] = lab_category
-print(all_lab)
+#print(all_lab)
+
+#combining everything
+
+all_frames = pandas.concat([all_hallways, all_open_chairs], axis = 0)
+all_frames = pandas.concat([all_frames, all_mr_blinds], axis = 0)
+all_frames = pandas.concat([all_frames, all_mr_windows], axis = 0)
+all_frames = pandas.concat([all_frames, pp_entrance], axis = 0)
+all_frames = pandas.concat([all_frames, all_lab], axis = 0)
+
+print(all_frames)
