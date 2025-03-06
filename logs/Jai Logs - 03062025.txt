@@ -1,0 +1,9 @@
+Jai Logs - 03/06/2025
+
+- Finished the SMA function in Python
+
+Things to do:
+
+- Get an understanding of what kernels are - https://www.youtube.com/watch?v=9IfT8KXX_9c
+- Get an understanding of Gaussian kernels - https://medium.com/towards-data-science/gaussian-smoothing-in-time-series-data-c6801f8a4dc3#:~:text=We%20do%20it%20by%20dividing,the%20smoothed%20number%20of%20cases.
+- Look into Gaussian Smoothing - https://medium.com/towards-data-science/gaussian-smoothing-in-time-series-data-c6801f8a4dc3#:~:text=We%20do%20it%20by%20dividing,the%20smoothed%20number%20of%20cases.
