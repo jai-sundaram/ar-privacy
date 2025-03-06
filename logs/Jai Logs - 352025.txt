@@ -1,0 +1,4 @@
+Jai Logs - 3/5/2025
+
+- Dropped the columns with feature loading value of less than |0.2| identified in pca file 
+- Revised Simple Moving Average concept + began looking into code 
