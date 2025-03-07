@@ -143,3 +143,6 @@ class Room:
         plt.title(f'{room_type}: {category}', fontsize=20)
         plt.xlabel(f'{room_type} Scans', fontsize=15)
         plt.ylabel('Power (mW)', fontsize=15)
+
+    # Added by Claire 2.16.25
+    
